@@ -1,0 +1,2 @@
+ALTER TABLE Client
+ADD CONSTRAINT client_test_fk FOREIGN KEY (Test_ID) REFERENCES Test(Test_ID);
